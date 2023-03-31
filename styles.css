@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.header{
+    background-color: rgb(92, 172, 11);
+    padding: 4px;
+}
+.header p{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.navLogo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 30px;
+    margin-top: 10px;
+}
+
+.navlogoContent ul li a{
+text-decoration: none;
+font-size: 12px ;
+padding: 10px;
+}
+
+.navlogoContent ul{
+    display: flex;
+}
+.inputContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.inputContainer .input{
+    background-color: white;
+    border: 1px solid black;
+    margin-right: 10px;
+    border-radius: 20px;
+    height: 35px;
+    width: 79px;
+    padding: 6px;
+
+  
+
+}
+.inputContainer .input input{
+    border: none;
+    outline: none;
+    height: 10px;
+    padding: 10px;
+  
+
+}
+.inputContainer i {
+    margin-right: 10px;
+}
+
+
+
+.cashContainer{
+    background-color: rgb(231, 224, 224);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.cashContainerItem{
+    display: flex;
+    align-items: center;
+
+}
+.cashContainerItem img{
+    margin-right: 10px;
+}
+.animate{
+   
+  background-image:url(./images/e105d_pre-order_ng.jpg);
+  background-position: center;
+  background-size: cover;
+   width: 100vw;
+   height: 60vh;
+}
